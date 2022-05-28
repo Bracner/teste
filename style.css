@@ -61,7 +61,17 @@ body{
     .menu h1{
         display: none;
     }
-  
-
+    .nextgame{
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    .nextgame h4{
+        margin: 0;
+        font-size: 27px;
+        font-family: Koulen;
+    }
+    .nextgame img{
+        width: 300;
+    }
 
 }
