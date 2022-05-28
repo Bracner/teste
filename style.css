@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+:root{
+    --cor-vermelho: #d2232a;
+    --cor-amarelo: #fad43b;
+}
+
+body{
+    margin: 0px;
+}
+
+.menu{
+    height: 200px;
+    border: 5px white;
+    position: relative;
+}
+.menu-top{
+    height: 75px;
+    background-color: var(--cor-vermelho);
+}
+.menu-bottom{
+    height: 40px;
+    background-color: black;
+}
+
+
+.menu img{
+    width: 140;
+    position: relative;
+    left: 150;
+}
+.menu h1{
+    position: absolute;
+    top: 15;
+    left: 300;
+    color: var(--cor-amarelo);
+    font-family: Bahnschrift;
+}
+
+
+@media (max-width: 999px) {
+
+    .menu{
+        height: 200px;
+        position: initial;
+        
+    }
+    .menu img{
+    left: 45%;
+    
+    }
+    .menu h1{
+        display: none;
+    }
+  
+
+
+}
