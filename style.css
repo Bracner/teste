@@ -42,7 +42,7 @@ body{
 
     .menu{
         height: 40vh;
-        position: initial;
+       
         
     }
     .menu-top{
@@ -52,7 +52,9 @@ body{
         height: 75px;
     }
     .menu img{
-    left: 35%;
+    left: 0;
+    margin: auto;
+    display: block;
     width: 300px;
     
     }
