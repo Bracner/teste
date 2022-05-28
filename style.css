@@ -41,12 +41,19 @@ body{
 @media (max-width: 999px) {
 
     .menu{
-        height: 200px;
+        height: 40vh;
         position: initial;
         
     }
+    .menu-top{
+    height: 150px;    
+}
+    .menu-bottom{
+        height: 75px;
+    }
     .menu img{
-    left: 45%;
+    left: 35%;
+    width: 300px;
     
     }
     .menu h1{
